@@ -6,7 +6,6 @@ let mergedCommands = [
   "help",
   "h",
   "menu",
-  "sc",
   "system",
   "info",
   "about",
