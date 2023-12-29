@@ -15,7 +15,7 @@ let mergedCommands = [
 module.exports = {
   name: "systemcommands",
   alias: [...mergedCommands],
-  uniquecommands: ["script", "support", "help", "system", "about"],
+  uniquecommands: ["help", "system", "about"],
   description: "All system commands",
   start: async (
     Atlas,
@@ -120,10 +120,6 @@ module.exports = {
 *〄 CPU Core:* ${core}
 
 *〄 CPU Architecture:* ${architecture}
-
-*〄 Current Bot version:* ${latest}
-
-*〄 Latest Bot version:* ${latest}
 `;
 
         if (latest.includes(version2) || version2.includes(latest)) {
