@@ -20,13 +20,13 @@ module.exports = {
         if (!text) {
           await doReact("❌");
           return m.reply(
-            `Please provide a valid instagram Reel/Video link !\n\nExample: *${prefix}igdl https://www.instagram.com/p/CP7Y4Y8J8ZU/*`
+            `Please provide a valid instagram Reel/Video link !\n\nExample: *${prefix}igdl https://www.instagram.com/yonecess/*`
           );
         }
         if (!text.includes("instagram")) {
           await doReact("❌");
           return m.reply(
-            `Please provide a valid instagram Reel/Video link !\n\nExample: *${prefix}igdl https://www.instagram.com/p/CP7Y4Y8J8ZU/*`
+            `Please provide a valid instagram Reel/Video link !\n\nExample: *${prefix}igdl https://www.instagram.com/yonecess/*`
           );
         }
         await doReact("📥");
@@ -46,7 +46,7 @@ module.exports = {
             m.from,
             {
               video: { url: scrappedURL },
-              caption: `Downloaded by: *${botName}* \n\n_*🎀 Powered by:*_ *Scrappy API - by FantoX*\n\n_*🧩 Url:*_ https://github.com/FantoX001/Scrappy-API \n`,
+              caption: `Downloaded by: *${botName}* \n\n_*🎀 Powered by:*_ *Scrappy API - by Ayush*\n\n_*`,
             },
             { quoted: m }
           );
@@ -126,7 +126,7 @@ Downloading...`;
             m.from,
             {
               video: { url: scrappedURL },
-              caption: `Downloaded by: *${botName}* \n\n_*🎀 Powered by:*_ *Scrappy API - by FantoX*\n\n_*🧩 Url:*_ https://github.com/FantoX001/Scrappy-API \n`,
+              caption: `Downloaded by: *${botName}* \n\n_*🎀 Powered by:*_ *Scrappy API - by Ayush*\n\n_*❤️`,
             },
             { quoted: m }
           );
