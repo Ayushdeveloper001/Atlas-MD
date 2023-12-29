@@ -27,7 +27,7 @@ module.exports = {
     if (!text) {
       await doReact("❌");
       return m.reply(
-        `Please provide a Toktok video link !\n\nExample: ${prefix}say Atlas MD is OP`
+        `Please provide a Toktok video link !\n\nExample: ${prefix}say Roblox is OP`
       );
     }
     if (!text.includes("tiktok")) {
